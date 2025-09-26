@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/estilo.css">
 </head>
 <body>
-    <div class="app-container">
-    
-        <div class="cat-animation">...</div> 
-
-        <header><h1>Login</h1></header>
-        <form class="login-form">
-            <label for="Email">Email</label>
-            <input type="email" name="Email" id="Email">
-        </form>
-        <div class="signup-area">...
-
+    <div class="parent">
+        <div class="login"> 
+            <h1>Login</h1>
         </div>
-
-    </div>
+        <div class="cat">
+            <img src="Imagens/gato.gif" alt="animação-gato">
+        </div>
+        <div class="form"> 
+            <label for="Email" class="filho">
+                <span class="material-symbols-outlined">
+                    email
+                </span>
+            </label>
+            <input type="email" name="Email" id="Email" maxlength="30" minlength="15" autocomplete="on">
+            <label for="Senha" class="filho">
+                <span class="material-symbols-outlined">
+                    key
+                </span>
+            </label>
+            <input type="password" name="Senha" id="Senha">
+        </div>
+        <div class="entrar"> </div>
+</div>
 </body>
 </html>
