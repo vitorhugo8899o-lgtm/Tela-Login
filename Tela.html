@@ -16,21 +16,22 @@
         <div class="cat">
             <img src="Imagens/gato.gif" alt="animação-gato">
         </div>
-        <div class="form"> 
-            <label for="Email" class="filho">
-                <span class="material-symbols-outlined">
-                    email
-                </span>
-            </label>
-            <input type="email" name="Email" id="Email" maxlength="30" minlength="15" autocomplete="on">
-            <label for="Senha" class="filho">
-                <span class="material-symbols-outlined">
-                    key
-                </span>
-            </label>
-            <input type="password" name="Senha" id="Senha">
-        </div>
-        <div class="entrar"> </div>
-</div>
+        <form action="#" method="post" class="form" autocomplete="on">
+    
+            <div class="filho"> 
+                <label for="Email"><span class="material-symbols-outlined">email</span></label>
+                <input type="email" name="Email" id="Email" placeholder="Email" maxlength="30" minlength="15" autocomplete="on" required>
+            </div>
+
+            <div class="filho">
+                <label for="Senha"><span class="material-symbols-outlined">key</span></label>
+                <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
+            </div>
+            
+            <div class="entrar">
+                <input type="submit" value="entrar">
+            </div>
+        </form> 
+    </div>
 </body>
 </html>
